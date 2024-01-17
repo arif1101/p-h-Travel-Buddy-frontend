@@ -280,6 +280,8 @@ video{
     height: 100%;
 }
 
+/* newsletter  */
+
 .news__discout__container{
     max-width: 1170px;
     display: flex;
@@ -305,7 +307,7 @@ video{
 }
 
 .subs__input{
-    width: 393px;
+    max-width: 393px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -314,7 +316,7 @@ video{
 }
 
 .newsletter__content button{
-    width: 393px;
+    max-width: 393px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -322,7 +324,7 @@ video{
     border: none;
 }
 .newsletter__content P{
-    width: 350PX;
+    max-width: 350PX;
     color: #5A5A5D;
     font-size: 16px;
     margin-top: 16px;
