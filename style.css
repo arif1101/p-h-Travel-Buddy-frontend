@@ -223,7 +223,157 @@ header {
     box-sizing: border-box;
 }
 
+/* video section */
+.video__container{
+    max-width: 1170px;
+    display: flex;
+    margin: 20px auto;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
 
+.video__text__content h2{
+    max-width: 438px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
 
+.video__text__content p{
+    max-width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.video__text__content li{
+    max-width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+.video__text__content button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.video__text__content{
+    width: 50%;
+}
+
+video{
+    border-radius: 16px;
+    width: 50%;
+    height: 100%;
+}
+
+.news__discout__container{
+    max-width: 1170px;
+    display: flex;
+    gap: 24px;
+    margin: 20px auto;
+}
+
+.newsletter__content{
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.discount__content{
+    width: 60%;
+}
+.discount__content img{
+    width: 100%;
+}
+
+.subs__input{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.newsletter__content button{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+.newsletter__content P{
+    width: 350PX;
+    color: #5A5A5D;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.newsletter__content h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+/* footer section  */
+
+.footer{
+    max-width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer p{
+    max-width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social__icon{
+    width: 174.322px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    width: 872px;
+    border: 1px solid rgba(19, 19, 24, 0.10);;
+    margin: 50px 284px;
+}
 
 

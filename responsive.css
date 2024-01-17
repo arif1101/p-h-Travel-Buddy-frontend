@@ -66,4 +66,47 @@
     .destination__content h1{
         margin-bottom: 10px;
     }
+
+    /* why chosen section */
+    .card__section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .choseUs__content h2{
+        margin-bottom: 0px;
+    }
+    .choseUs__content p{
+        max-width: 409px;
+        margin-top: 0px;
+    }
+    .card i img{
+        width: 48px;
+        height: 48px;
+        border-radius: 0;
+    }
+
+    /* video section */
+    .video__container{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .video__text__content{
+        width: 100%;
+    }
+
+    .video__text__content li{
+        margin-left: 5px;
+    }
+    .video__text__content button{
+        margin-top: 20px;
+    }
+
+    video{
+        width: 100%;
+    }
+    
 }
